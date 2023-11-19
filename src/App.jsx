@@ -9,15 +9,16 @@ const App = () => {
       <Header />
       <section className="relative w-[837px] mx-auto flex items-center">
         <MainBannerTitle />
-        <section className="translate-x-[130px]">
+        <section className="translate-x-[200px]">
           <img
             src="https://www.krafton.com/wp-content/uploads/2021/06/battle-bg1-min.png"
             alt="main banner"
+            className="w-[758px]"
           />
           <MainBannerLink />
         </section>
       </section>
-      <section className="bg-yellow-300 mx-auto mb-20 w-[720px] h-[1148px]">
+      <section className=" mx-auto mb-20 w-[720px] h-[1148px]">
         image scrolls into video
       </section>
       <section className="bg-green-200 mx-auto w-[991px] h-[350px] mb-[153.6px]">

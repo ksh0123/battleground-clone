@@ -1,6 +1,6 @@
 const MainBannerTitle = () => {
   return (
-    <div className="text-white absolute flex flex-col z-2c0 translate-y-1/3 -translate-z-[180px]">
+    <div className="text-white absolute flex flex-col z-20 translate-y-1/3 -translate-x-[50px]">
       <div className="text-7xl font-semibold pb-12">PUBG: BATTLEGROUNDS</div>
       <div className="flex flex-row gap-6 text-xs">
         <span>Battle Royale</span>
