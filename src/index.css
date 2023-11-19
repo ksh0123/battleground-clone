@@ -1,3 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* src/styles/tailwind.css */
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 100;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap")
+    format("woff2");
+}
+
+/* Apply the Poppins font to a specific class */
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
