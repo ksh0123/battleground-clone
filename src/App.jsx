@@ -1,11 +1,21 @@
 import FooterCopy from "./components/FooterCopy";
+import Header from "./components/Header";
+import MainBannerLink from "./components/MainBannerLink";
+import MainBannerTitle from "./components/MainBannerTitle";
 
 const App = () => {
   return (
     <section className="bg-black">
-      <div className="bg-red-100">Menu</div>
-      <section className="bg-orange-500 w-[837px] h-[955px] mx-auto">
-        interactive banner
+      <Header />
+      <section className="relative w-[837px] mx-auto flex items-center">
+        <MainBannerTitle />
+        <section className="translate-x-[130px]">
+          <img
+            src="https://www.krafton.com/wp-content/uploads/2021/06/battle-bg1-min.png"
+            alt="main banner"
+          />
+          <MainBannerLink />
+        </section>
       </section>
       <section className="bg-yellow-300 mx-auto mb-20 w-[720px] h-[1148px]">
         image scrolls into video
