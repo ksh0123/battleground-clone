@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="max-w-full h-[77px] mx-auto px-[41px] flex justify-between items-center">
+    <div className="sticky max-w-full h-[77px] mx-auto px-[41px] flex justify-between items-center">
       <img
         src="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/logo-white.png"
         alt="header logo"

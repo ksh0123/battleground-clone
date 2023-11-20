@@ -7,7 +7,7 @@ const App = () => {
   return (
     <section className="bg-black">
       <Header />
-      <section className="relative w-[837px] mx-auto flex items-center">
+      <section className="relative w-[837px] mx-auto flex items-center pb-[200px]">
         <MainBannerTitle />
         <section className="translate-x-[200px]">
           <img
@@ -18,8 +18,11 @@ const App = () => {
           <MainBannerLink />
         </section>
       </section>
-      <section className=" mx-auto mb-20 w-[720px] h-[1148px]">
-        image scrolls into video
+      <section className="bg-orange-300 mx-auto mb-20 w-[720px] h-[1148px] pt-[200px]">
+        <img
+          src="https://i.ytimg.com/vi_webp/FOmmbaP_tn0/maxresdefault.webp"
+          alt="video image"
+        />
       </section>
       <section className="bg-green-200 mx-auto w-[991px] h-[350px] mb-[153.6px]">
         game promo text 1
