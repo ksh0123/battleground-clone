@@ -1,34 +1,42 @@
 import FooterCopy from "./components/FooterCopy";
 import Header from "./components/Header";
-import MainBannerLink from "./components/MainBannerLink";
+import MainBanner from "./components/MainBanner";
 import MainBannerTitle from "./components/MainBannerTitle";
 
 const App = () => {
   return (
-    <section className="bg-black">
+    <section className="font-poppins bg-black">
       <Header />
-      <section className="relative w-[837px] mx-auto flex items-center pb-[200px]">
-        <MainBannerTitle />
-        <section className="translate-x-[200px]">
-          <img
-            src="https://www.krafton.com/wp-content/uploads/2021/06/battle-bg1-min.png"
-            alt="main banner"
-            className="w-[758px]"
-          />
-          <MainBannerLink />
-        </section>
+      <section className="relative">
+        <div className="w-[1260px] mx-auto flex items-center pb-[200px]">
+          <MainBannerTitle />
+          <MainBanner />
+        </div>
+        <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-br from-black from-5% via-transparent"></div>
       </section>
       <section className="bg-orange-300 mx-auto mb-20 w-[720px] h-[1148px] pt-[200px]">
         <img
           src="https://i.ytimg.com/vi_webp/FOmmbaP_tn0/maxresdefault.webp"
-          alt="video image"
+          alt="promo video"
         />
       </section>
-      <section className="bg-green-200 mx-auto w-[991px] h-[350px] mb-[153.6px]">
-        game promo text 1
-      </section>
-      <section className="bg-green-200 mx-auto w-[991px] h-[350px] mb-[153.6px]">
-        game promo text 2
+      <section className="mx-auto flex flex-row">
+        <div>
+          <img
+            src="https://www.krafton.com/wp-content/uploads/2021/06/battle-bg3-min.png"
+            alt="battle grounds"
+            className="ml-[150px] brightness-20"
+          />
+        </div>
+        <div className="w-[700px] flex flex-col justify-center text-white mr-[150px] -translate-x-[200px]">
+          <h4 className="text-5xl text-wrap">PLAYERUNKNOWN’S BATTLEGROUNDS</h4>
+          <div className="pt-[26px] text-lg">
+            PUBG is spearheaded by CEO Chang Han Kim in an effort to develop
+            games in the spirit of challenging players. What started as a small
+            team of about 20 developers, quickly exploded into what is now one
+            of the biggest video game genres in the world.
+          </div>
+        </div>
       </section>
       <section className="bg-blue-200 mx-auto w-[720px] h-[202px] mb-[153.6px]">
         counter

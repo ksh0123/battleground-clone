@@ -71,3 +71,7 @@
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
+
+.delay-slide {
+  animation-delay: 0.5s;
+}
