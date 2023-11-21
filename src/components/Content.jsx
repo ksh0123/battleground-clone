@@ -19,7 +19,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row mb-72">
+      <div className="flex flex-row mb-20">
         <div className="flex flex-col justify-center text-white translate-x-[200px]">
           <div className="text-5xl">POWERFUL CULTURAL IP</div>
           <div className="pt-[26px] text-lg">

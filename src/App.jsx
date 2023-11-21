@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Promo from "./components/Promo";
 import Content from "./components/Content";
+import CountList from "./components/CountList";
 
 const App = () => {
   const [isHidden, setIsHidden] = useState(false);
@@ -30,9 +31,7 @@ const App = () => {
       <Main />
       <Promo />
       <Content />
-      <section className="bg-blue-200 mx-auto w-[720px] h-[202px] mb-[153.6px]">
-        counter
-      </section>
+      <CountList />
       <section className="bg-purple-200 mx-auto w-[720px] h-[530px] mb-20">
         Awards
       </section>
