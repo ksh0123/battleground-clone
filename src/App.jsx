@@ -9,12 +9,15 @@ import CountList from "./components/CountList";
 
 const App = () => {
   const [isHidden, setIsHidden] = useState(false);
+  const [currentY, setCurrentY] = useState(100);
 
   const scrollEvent = () => {
-    if (window.scrollY > 100) {
+    if (currentY < window.scrollY) {
       setIsHidden(true);
+      setCurrentY(window.scrollY);
     } else {
       setIsHidden(false);
+      setCurrentY(window.scrollY);
     }
   };
 
