@@ -8,6 +8,7 @@ import Content from "./components/Content";
 import CountList from "./components/CountList";
 import AwardsList from "./components/AwardsList";
 import PlatformList from "./components/PlatformList";
+import BottomBanner from "./components/BottomBanner";
 
 const App = () => {
   const [isHidden, setIsHidden] = useState(false);
@@ -38,9 +39,7 @@ const App = () => {
       <CountList />
       <AwardsList />
       <PlatformList />
-      <section className="bg-purple-400 mx-auto w-[720px] h-[171px] mb-20">
-        Bottom Banner
-      </section>
+      <BottomBanner />
       <section className="bg-purple-950 w-[1103px] mx-auto mt-[166px] h-[70px] border-b-[1px] border-slate-500">
         Footer
       </section>
