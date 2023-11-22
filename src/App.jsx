@@ -6,10 +6,11 @@ import Main from "./components/Main";
 import Promo from "./components/Promo";
 import Content from "./components/Content";
 import CountList from "./components/CountList";
+import ListSection from "./components/ListSection";
 
 const App = () => {
   const [isHidden, setIsHidden] = useState(false);
-  const [currentY, setCurrentY] = useState(100);
+  const [currentY, setCurrentY] = useState(150);
 
   const scrollEvent = () => {
     if (currentY < window.scrollY) {
@@ -17,7 +18,6 @@ const App = () => {
       setCurrentY(window.scrollY);
     } else {
       setIsHidden(false);
-      setCurrentY(window.scrollY);
     }
   };
 
@@ -35,9 +35,8 @@ const App = () => {
       <Promo />
       <Content />
       <CountList />
-      <section className="bg-purple-200 mx-auto w-[720px] h-[530px] mb-20">
-        Awards
-      </section>
+      <ListSection />
+
       <section className="bg-purple-200 mx-auto w-[720px] h-[347px] mb-20">
         Game Platform
       </section>
