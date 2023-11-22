@@ -1,4 +1,4 @@
-const ListSection = () => {
+const AwardsList = () => {
   return (
     <section className="text-white mx-auto w-[1280px] h-fit m-20 flex flex-row font-poppins">
       <div className="w-1/3 text-3xl px-10">Awards</div>
@@ -45,4 +45,4 @@ const ListSection = () => {
   );
 };
 
-export default ListSection;
+export default AwardsList;

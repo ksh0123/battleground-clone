@@ -6,7 +6,7 @@ import Main from "./components/Main";
 import Promo from "./components/Promo";
 import Content from "./components/Content";
 import CountList from "./components/CountList";
-import ListSection from "./components/ListSection";
+import AwardsList from "./components/ListSection";
 
 const App = () => {
   const [isHidden, setIsHidden] = useState(false);
@@ -35,7 +35,7 @@ const App = () => {
       <Promo />
       <Content />
       <CountList />
-      <ListSection />
+      <AwardsList />
 
       <section className="bg-purple-200 mx-auto w-[720px] h-[347px] mb-20">
         Game Platform
