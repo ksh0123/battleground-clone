@@ -6,7 +6,8 @@ import Main from "./components/Main";
 import Promo from "./components/Promo";
 import Content from "./components/Content";
 import CountList from "./components/CountList";
-import AwardsList from "./components/ListSection";
+import AwardsList from "./components/AwardsList";
+import PlatformList from "./components/PlatformList";
 
 const App = () => {
   const [isHidden, setIsHidden] = useState(false);
@@ -36,10 +37,7 @@ const App = () => {
       <Content />
       <CountList />
       <AwardsList />
-
-      <section className="bg-purple-200 mx-auto w-[720px] h-[347px] mb-20">
-        Game Platform
-      </section>
+      <PlatformList />
       <section className="bg-purple-400 mx-auto w-[720px] h-[171px] mb-20">
         Bottom Banner
       </section>

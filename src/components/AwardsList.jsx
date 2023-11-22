@@ -1,7 +1,7 @@
 const AwardsList = () => {
   return (
     <section className="text-white mx-auto w-[1280px] h-fit m-20 flex flex-row font-poppins">
-      <div className="w-1/3 text-3xl px-10">Awards</div>
+      <div className="w-1/3 text-3xl px-20 text-left">Awards</div>
       <div className="w-2/3 mb-9">
         <div className="mb-1 text-xl font-semibold">World Records</div>
         <div className="mb-5 text-neutral-400 text-sm font-light">
