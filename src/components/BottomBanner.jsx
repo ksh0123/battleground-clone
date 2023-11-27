@@ -1,6 +1,6 @@
 const BottomBanner = () => {
   return (
-    <section className=" text-white mx-auto w-[720px] h-[171px] my-20 py-10 border-y border-white flex flex-col">
+    <section className=" text-white mx-auto w-[1260px] h-[195px] my-20 py-10 border-y border-white flex flex-col">
       <div className="w-[120px] hidden gap-2 lg:flex lg:text-xs xl:text-xs 2xl:text-sm 2xl:gap-2">
         <li className="list-none">DEVELOPER</li>
         <li className="list-none font-extralight">|</li>
