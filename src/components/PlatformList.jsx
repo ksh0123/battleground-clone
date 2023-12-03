@@ -3,7 +3,7 @@ import RedirectIcon from "../icons/RedirectIcon";
 const PlatformList = () => {
   return (
     <section className="text-white mx-auto w-[1280px] h-fit m-20 flex flex-row font-poppins">
-      <div className="w-1/5 text-3xl px-10 text-left">Game Platform</div>
+      <div className="w-1/4 text-3xl px-10 text-left">Game Platform</div>
       <div className="w-3/4 mb-9">
         <div className="mb-1 text-xl font-semibold">
           PUBG: Battlegrounds (Steam)

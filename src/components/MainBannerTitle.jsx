@@ -1,6 +1,6 @@
 const MainBannerTitle = () => {
   return (
-    <div className="font-bold font-poppins text-white absolute flex flex-col z-20 translate-y-10 -translate-x-[50px] z-10">
+    <div className="font-bold font-poppins text-white absolute flex flex-col translate-y-10 -translate-x-[50px] z-10">
       <div className="w-full text-[75px] pb-12 animate__animated animate__fadeInLeft animate__slower">
         PUBG: BATTLEGROUNDS
       </div>

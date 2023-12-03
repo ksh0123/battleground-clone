@@ -3,7 +3,7 @@ import MainBanner from "./MainBanner";
 
 const Main = () => {
   return (
-    <section className="flex items-center w-[1260px] px-[40px]">
+    <section className="mx-auto w-fit h-screen">
       <div className="relative mx-auto flex items-center">
         <MainBannerTitle />
         <MainBanner />

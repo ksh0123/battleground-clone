@@ -1,6 +1,10 @@
 const Header = ({ isHidden }) => {
   return (
-    <div className={`sticky top-0 z-10 bg-black bg-opacity-50 max-w-full h-[77px] mx-auto px-[20px] lg:px-[40px] xl:px-[60px] 2xl:px-[80px] flex justify-between items-center ${isHidden && "opacity-0"}`}>
+    <div
+      className={`sticky top-0 z-10 bg-black bg-opacity-50 max-w-full h-[77px] mx-auto px-[20px] lg:px-[40px] xl:px-[60px] 2xl:px-[80px] flex justify-between items-center ${
+        isHidden && "opacity-0"
+      }`}
+    >
       <img
         src="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/logo-white.png"
         alt="header logo"
